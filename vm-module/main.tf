@@ -117,7 +117,7 @@ resource "azurerm_virtual_machine" "main" {
 resource "azurerm_dns_a_record" "public" {
   depends_on          = [azurerm_virtual_machine.main]
   name                = var.component
-  zone_name           = "azdevopsb82.online"
+  zone_name           = "learntechnology.shop"
   resource_group_name = data.azurerm_resource_group.default.name
   ttl                 = 10
   records             = [azurerm_public_ip.main.ip_address]
