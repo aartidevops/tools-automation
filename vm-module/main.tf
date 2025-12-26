@@ -87,7 +87,7 @@ resource "azurerm_virtual_machine" "main" {
 
 
   storage_image_reference {
-    id = "/subscriptions/a906d619-0839-4738-a908-227a8b69d458/resourceGroups/compute-gallery/providers/Microsoft.Compute/galleries/LDORHEL9/images/la-rhel9-devops-practice/versions/1.0.0"
+    id = "/subscriptions/0aa6e6f6-6e44-47f7-b30d-2aa0dfd4e5f4/resourceGroups/RG/providers/Microsoft.Compute/galleries/Aarti_Image/images/CustomImage/versions/1.0.0"
   }
 
   storage_os_disk {
