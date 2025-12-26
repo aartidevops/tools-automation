@@ -4,6 +4,6 @@ data "azurerm_resource_group" "default" {
 
 data "azurerm_subnet" "main" {
   name                 = "default"
-  virtual_network_name = "main"
+  virtual_network_name = "vnet"
   resource_group_name  = data.azurerm_resource_group.default.name
 }
