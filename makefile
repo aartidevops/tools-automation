@@ -6,5 +6,5 @@ infra:
 
 ansible:
 	git pull
-		ansible-playbook -i $(tool_name)-internal.learntechnology.shop, tool-setup.yml -e ansible_user=raghu -e ansible_password=DevOps123456 -e tool_name=$(tool_name)
+		ansible-playbook -i $(tool_name)-internal.learntechnology.shop, tool-setup.yml -e ansible_user=Aarti -e ansible_password=Aarti@431721 -e tool_name=$(tool_name)
 	## Username and Password should not be hardcoded, Here we just hardcoding because to avoid the passing of input. This needs to be parsed as input in real time
