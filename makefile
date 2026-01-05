@@ -10,6 +10,7 @@ ansible:
 	## Username and Password should not be hardcoded, Here we just hardcoding because to avoid the passing of input. This needs to be parsed as input in real time
 
 infra-destroy:
+    git pull
 	terraform destroy -auto-approve -var ssh_username=Aarti -var ssh_password=Aarti@431721
 
 
