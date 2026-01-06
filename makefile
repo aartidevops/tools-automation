@@ -1,7 +1,7 @@
 infra:
-	git pull
-	terraform init
-	terraform apply -auto-approve -var ssh_username=Aarti -var ssh_password=Aarti@431721
+    git pull
+    terraform init
+    terraform apply -auto-approve -var ssh_username=Aarti -var ssh_password=Aarti@431721
 	## Username and Password should not be hardcoded, Here we just hardcoding because to avoid the passing of input. This needs to be parsed as input in real time
 
 ansible:
