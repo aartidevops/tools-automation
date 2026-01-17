@@ -5,4 +5,4 @@
 
     ansible:
         git pull
-        ansible-playbook -i $(tool_name)-internal.learntechnology.shop, tool-setup.yml -e ansible_user=Aarti -e ansible_password=Aarti@431721 -e tool_name=$(tool_name)
+ansible-playbook -i $(tool_name)-internal.learntechnology.shop, tool-setup.yml -e ansible_user=Aarti -e ansible_password=Aarti@431721 -e tool_name=        $(tool_name)
