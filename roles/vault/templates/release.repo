@@ -1,0 +1,10 @@
+- name: Add HashiCorp repo (RHEL 9 compatible)
+  copy:
+    dest: /etc/yum.repos.d/hashicorp.repo
+    content: |
+      [hashicorp]
+      name=HashiCorp Stable - x86_64
+      baseurl=https://rpm.releases.hashicorp.com/RHEL/9/x86_64/stable
+      enabled=1
+      gpgcheck=1
+      gpgkey=https://rpm.releases.hashicorp.com/gpg
